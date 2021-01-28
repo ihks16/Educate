@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="codepixer">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Educature Education</title>
+
+	<!--
+			Google Font
+			============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500i" rel="stylesheet">
+
+	<!--
+			CSS
+			============================================= -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+    <header id="header">
+		<div class="container">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<a href="index.php"><img src="img/logo.png" alt="" title="" /></a>
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li class="menu-active"><a href="index.php">Home</a></li>
+						<li><a href="about.html">Courses</a></li>
+						<li class="menu-has-children"><a href="">Categories</a>
+                             <ul>
+								<li><a href="courses_search.php?name=programming">Programming</a></li>
+								<li><a href="courses_search.php?name=excel">Excel</a></li>
+                                <li><a href="courses_search.php?name=web">Web</a></li>
+								<li><a href="courses_search.php?name=photograph">Photograph</a></li>
+                                <li><a href="courses_search.php?name=maths">Maths</a></li>
+								<li><a href="courses_search.php?name=music">Music</a></li>
+                            </ul>
+                        </li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav><!-- #nav-menu-container -->
+			</div>
+		</div>
+	</header>
+	<section class="home-banner-area relative" style="height:480px">
+		<div class="container">
+			<div class="row fullscreen d-flex align-items-center justify-content-center">
+				<div class="banner-content col-lg-8 col-md-12" style="margin-top:0px ; height:480px; overflow:hidden">
+                    <h1 class="wow fadeIn" data-wow-duration="4s">We Rank the Best Courses <br> in the WORLD</h1>
+					<p class="text-white">
+						In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space
+						telescope.
+					</p>
+         
+					<div class="input-wrap">
+						<form action="courses_search.php" method="get" class="form-box d-flex justify-content-between" style="border-radius:30px">
+							<input style="border-radius:30px" type="text" placeholder="Search Courses" class="form-control" name="name">
+							<button style="border-radius:30px" type="submit" class="btn search-btn" >Search</button>
+						</form>
+					</div>
+                    <!--
+                    <h4 class="text-white">Top courses</h4>
+					<div class="courses pt-20" action="courses_search.php" method="get">
+						<a href="courses_search.php?name=<?php echo 'programming'; ?>"  data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Programming</a>
+						
+                        <a href="courses_search.php?name=<?php echo 'photography'; ?>" data-wow-duration="1s" data-wow-delay=".6s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Photography</a>
+						
+                        <a href="courses_search.php?name=<?php echo 'web'; ?>" data-wow-duration="1s" data-wow-delay=".9s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Web Development</a>
+						
+                        <a href="courses_search.php?name=<?php echo 'excel'; ?>" data-wow-duration="1s" data-wow-delay="1.2s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Excel</a>
+						
+                        <a href="courses_search.php?name=<?php echo 'music'; ?>" data-wow-duration="1s" data-wow-delay="1.5s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Music</a>
+						
+                        <a href="courses_search.php?name=<?php echo 'math'; ?>" data-wow-duration="1s" data-wow-delay="1.8s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Math</a>
+						
+                        <a href="courses_search.php?name=<?php echo 'ai'; ?>" data-wow-duration="1s" data-wow-delay="2.1s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">AI</a>
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<!-- <div class="rocket-img">
+			<img src="img/rocket.png" alt="">
+		</div> -->
+	</section>
+    <div class="popular_courses" style="padding-bottom:20px">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12"  style="height:80px">
+                    <div class="section_title text-center mb-100">
+                        <h3>Popular Courses</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="course_nav">
+                        <nav>
+                            <ul class="nav" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                        aria-controls="home" aria-selected="true">All Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                        aria-controls="profile" aria-selected="false">Business</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                        aria-controls="contact" aria-selected="false">Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab"
+                                        aria-controls="design" aria-selected="false">Photography and Video</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="Web-tab" data-toggle="tab" href="#Web" role="tab"
+                                        aria-controls="design" aria-selected="false">Programming</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="Web-tab1" data-toggle="tab" href="#Web1" role="tab"
+                                        aria-controls="design" aria-selected="false">Marketing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="Web-tab11" data-toggle="tab" href="#Web11" role="tab"
+                                        aria-controls="design" aria-selected="false">IT and Software</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="Adobe-XD-tab8" data-toggle="tab" href="#Adobe-XD8" role="tab"
+                                        aria-controls="design" aria-selected="false">Personal Development</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="all_courses">
+            <div class="container">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                       <div class="row">
+                                
+                                <?php
+                                $con = mysqli_connect("localhost","root","","test");
+                                if (mysqli_connect_errno()) {
+                                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                                    exit();
+                                }
+                                $sql = "SELECT * from coursedetails LIMIT 7";
+                                $result = mysqli_query($con , $sql);
+                                $row = mysqli_fetch_assoc($result);
+                                if ($result->num_rows > 0) {
+           			            while($row = $result->fetch_assoc()) {
+                                ?>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                  <div class="single_courses">
+                                            <div class="thumb">
+                                                <a  href="courses.php?id=<?php echo $row["id"]; ?>">
+                                                    <img src="<?php echo $row["img1"] ?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <h3><a href="courses.php?id=<?php echo $row[id];?>&&name=<?php echo $row["categoryName"] ?>"> <?php echo $row["name"] ?> </a></h3>
+                                                <div class="star_prise d-flex justify-content-between">
+                                                    <div class="star">
+                                                        <i class="flaticon-mark-as-favorite-star"></i>
+                                                        <span><?php echo $row["ratings"] ?></span>
+                                                    </div>
+                                                    <div class="prise">
+                                                        <span class="offer">Rs <?php echo $row["originalPrice"] ?>/-</span>
+                                                        <span class="active_prise">
+                                                            Rs <?php echo $row["dealPrice"] ?>/-
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div><?php } } ?> 
+                        </div>      
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                         <div class="row">
+                                
+                                <?php
+                                $con = mysqli_connect("localhost","root","","test");
+                                if (mysqli_connect_errno()) {
+                                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                                    exit();
+                                }
+                                $sql = "SELECT * from coursedetails  WHERE categoryName = 'business' LIMIT 7 ";
+                                $result = mysqli_query($con , $sql);
+                                $row = mysqli_fetch_assoc($result);
+                                if ($result->num_rows > 0) {
+           			            while($row = $result->fetch_assoc()) {
+                                ?>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                  <div class="single_courses">
+                                            <div class="thumb">
+                                                <a  href="courses.php?id=<?php echo $row["id"]; ?>">
+                                                    <img src="<?php echo $row["img1"] ?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <h3><a href="courses.php?id=<?php echo $row[id];?>&&name=<?php echo $row["categoryName"] ?>"> <?php echo $row["name"] ?> </a></h3>
+                                                <div class="star_prise d-flex justify-content-between">
+                                                    <div class="star">
+                                                        <i class="flaticon-mark-as-favorite-star"></i>
+                                                        <span><?php echo $row["ratings"] ?></span>
+                                                    </div>
+                                                    <div class="prise">
+                                                        <span class="offer">Rs <?php echo $row["originalPrice"] ?>/-</span>
+                                                        <span class="active_prise">
+                                                            Rs <?php echo $row["dealPrice"] ?>/-
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div><?php } } ?> 
+                        </div>   
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                         <div class="row">
+                                
+                                <?php
+                                $con = mysqli_connect("localhost","root","","test");
+                                if (mysqli_connect_errno()) {
+                                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                                    exit();
+                                }
+                                $sql = "SELECT * from coursedetails WHERE categoryName='design' LIMIT 7";
+                                $result = mysqli_query($con , $sql);
+                                $row = mysqli_fetch_assoc($result);
+                                if ($result->num_rows > 0) {
+           			            while($row = $result->fetch_assoc()) {
+                                ?>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                  <div class="single_courses">
+                                            <div class="thumb">
+                                                <a  href="courses.php?id=<?php echo $row["id"]; ?>">
+                                                    <img src="<?php echo $row["img1"] ?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <h3><a href="courses.php?id=<?php echo $row[id];?>&&name=<?php echo $row["categoryName"] ?>"> <?php echo $row["name"] ?> </a></h3>
+                                                <div class="star_prise d-flex justify-content-between">
+                                                    <div class="star">
+                                                        <i class="flaticon-mark-as-favorite-star"></i>
+                                                        <span><?php echo $row["ratings"] ?></span>
+                                                    </div>
+                                                    <div class="prise">
+                                                        <span class="offer">Rs <?php echo $row["originalPrice"] ?>/-</span>
+                                                        <span class="active_prise">
+                                                            Rs <?php echo $row["dealPrice"] ?>/-
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div><?php } } ?> 
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+                             <div class="row">
+                                
+                                <?php
+                                $con = mysqli_connect("localhost","root","","test");
+                                if (mysqli_connect_errno()) {
+                                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                                    exit();
+                                }
+                                $sql = "SELECT * from coursedetails WHERE categoryName='photograph' LIMIT 7";
+                                $result = mysqli_query($con , $sql);
+                                $row = mysqli_fetch_assoc($result);
+                                if ($result->num_rows > 0) {
+           			            while($row = $result->fetch_assoc()) {
+                                ?>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                  <div class="single_courses">
+                                            <div class="thumb">
+                                                <a  href="courses.php?id=<?php echo $row["id"]; ?>">
+                                                    <img src="<?php echo $row["img1"] ?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <h3><a href="courses.php?id=<?php echo $row[id];?>&&name=<?php echo $row["categoryName"] ?>"> <?php echo $row["name"] ?> </a></h3>
+                                                <div class="star_prise d-flex justify-content-between">
+                                                    <div class="star">
+                                                        <i class="flaticon-mark-as-favorite-star"></i>
+                                                        <span><?php echo $row["ratings"] ?></span>
+                                                    </div>
+                                                    <div class="prise">
+                                                        <span class="offer">Rs <?php echo $row["originalPrice"] ?>/-</span>
+                                                        <span class="active_prise">
+                                                            Rs <?php echo $row["dealPrice"] ?>/-
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div><?php } } ?> 
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Web" role="tabpanel" aria-labelledby="Web-tab">
+                           <div class="row">
+                                
+                                <?php
+                                $con = mysqli_connect("localhost","root","","test");
+                                if (mysqli_connect_errno()) {
+                                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                                    exit();
+                                }
+                                $sql = "SELECT * from coursedetails WHERE categoryName='programming' LIMIT 7";
+                                $result = mysqli_query($con , $sql);
+                                $row = mysqli_fetch_assoc($result);
+                                if ($result->num_rows > 0) {
+           			            while($row = $result->fetch_assoc()) {
+                                ?>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                  <div class="single_courses">
+                                            <div class="thumb">
+                                                <a  href="courses.php?id=<?php echo $row["id"]; ?>">
+                                                    <img src="<?php echo $row["img1"] ?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <h3><a href="courses.php?id=<?php echo $row[id];?>&&name=<?php echo $row["categoryName"] ?>"> <?php echo $row["name"] ?> </a></h3>
+                                                <div class="star_prise d-flex justify-content-between">
+                                                    <div class="star">
+                                                        <i class="flaticon-mark-as-favorite-star"></i>
+                                                        <span><?php echo $row["ratings"] ?></span>
+                                                    </div>
+                                                    <div class="prise">
+                                                        <span class="offer">Rs <?php echo $row["originalPrice"] ?>/-</span>
+                                                        <span class="active_prise">
+                                                            Rs <?php echo $row["dealPrice"] ?>/-
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div><?php } } ?> 
+                        </div>  
+                    </div>
+                    <div class="tab-pane fade" id="Web1" role="tabpanel" aria-labelledby="Web-tab1">
+                            <div class="row">
+                                
+                                <?php
+                                $con = mysqli_connect("localhost","root","","test");
+                                if (mysqli_connect_errno()) {
+                                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                                    exit();
+                                }
+                                $sql = "SELECT * from coursedetails WHERE categoryName='marketing' LIMIT 7";
+                                $result = mysqli_query($con , $sql);
+                                $row = mysqli_fetch_assoc($result);
+                                if ($result->num_rows > 0) {
+           			            while($row = $result->fetch_assoc()) {
+                                ?>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                  <div class="single_courses">
+                                            <div class="thumb">
+                                                <a  href="courses.php?id=<?php echo $row["id"]; ?>">
+                                                    <img src="<?php echo $row["img1"] ?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <h3><a href="courses.php?id=<?php echo $row[id];?>&&name=<?php echo $row["categoryName"] ?>"> <?php echo $row["name"] ?> </a></h3>
+                                                <div class="star_prise d-flex justify-content-between">
+                                                    <div class="star">
+                                                        <i class="flaticon-mark-as-favorite-star"></i>
+                                                        <span><?php echo $row["ratings"] ?></span>
+                                                    </div>
+                                                    <div class="prise">
+                                                        <span class="offer">Rs <?php echo $row["originalPrice"] ?>/-</span>
+                                                        <span class="active_prise">
+                                                            Rs <?php echo $row["dealPrice"] ?>/-
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div><?php } } ?> 
+                        </div>   
+                    </div>
+                    <div class="tab-pane fade" id="Web11" role="tabpanel" aria-labelledby="Web-tab11">
+                            <div class="row">
+                                
+                                <?php
+                                $con = mysqli_connect("localhost","root","","test");
+                                if (mysqli_connect_errno()) {
+                                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                                    exit();
+                                }
+                                $sql = "SELECT * from coursedetails WHERE categoryName='software' LIMIT 7";
+                                $result = mysqli_query($con , $sql);
+                                $row = mysqli_fetch_assoc($result);
+                                if ($result->num_rows > 0) {
+           			            while($row = $result->fetch_assoc()) {
+                                ?>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                  <div class="single_courses">
+                                            <div class="thumb">
+                                                <a  href="courses.php?id=<?php echo $row["id"]; ?>">
+                                                    <img src="<?php echo $row["img1"] ?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <h3><a href="courses.php?id=<?php echo $row[id];?>&&name=<?php echo $row["categoryName"] ?>"> <?php echo $row["name"] ?> </a></h3>
+                                                <div class="star_prise d-flex justify-content-between">
+                                                    <div class="star">
+                                                        <i class="flaticon-mark-as-favorite-star"></i>
+                                                        <span><?php echo $row["ratings"] ?></span>
+                                                    </div>
+                                                    <div class="prise">
+                                                        <span class="offer">Rs <?php echo $row["originalPrice"] ?>/-</span>
+                                                        <span class="active_prise">
+                                                            Rs <?php echo $row["dealPrice"] ?>/-
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div><?php } } ?> 
+                        </div> 
+                    </div>
+                    <div class="tab-pane fade" id="Adobe-XD8" role="tabpanel" aria-labelledby="Adobe-XD8">
+                             <div class="row">
+                                
+                                <?php
+                                $con = mysqli_connect("localhost","root","","test");
+                                if (mysqli_connect_errno()) {
+                                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                                    exit();
+                                }
+                                $sql = "SELECT * from coursedetails WHERE categoryName='personal development' LIMIT 7";
+                                $result = mysqli_query($con , $sql);
+                                $row = mysqli_fetch_assoc($result);
+                                if ($result->num_rows > 0) {
+           			            while($row = $result->fetch_assoc()) {
+                                ?>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                  <div class="single_courses">
+                                            <div class="thumb">
+                                                <a  href="courses.php?id=<?php echo $row["id"]; ?>">
+                                                    <img src="<?php echo $row["img1"] ?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <h3><a href="courses.php?id=<?php echo $row[id];?>&&name=<?php echo $row["categoryName"] ?>"> <?php echo $row["name"] ?> </a></h3>
+                                                <div class="star_prise d-flex justify-content-between">
+                                                    <div class="star">
+                                                        <i class="flaticon-mark-as-favorite-star"></i>
+                                                        <span><?php echo $row["ratings"] ?></span>
+                                                    </div>
+                                                    <div class="prise">
+                                                        <span class="offer">Rs <?php echo $row["originalPrice"] ?>/-</span>
+                                                        <span class="active_prise">
+                                                            Rs <?php echo $row["dealPrice"] ?>/-
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div><?php } } ?> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+	<footer class="footer-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-6 single-footer-widget">
+					<h4>Top Products</h4>
+					<ul>
+						<li><a href="#">Managed Website</a></li>
+						<li><a href="#">Manage Reputation</a></li>
+						<li><a href="#">Power Tools</a></li>
+						<li><a href="#">Marketing Service</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-6 single-footer-widget">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Brand Assets</a></li>
+						<li><a href="#">Investor Relations</a></li>
+						<li><a href="#">Terms of Service</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-6 single-footer-widget">
+					<h4>Features</h4>
+					<ul>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Brand Assets</a></li>
+						<li><a href="#">Investor Relations</a></li>
+						<li><a href="#">Terms of Service</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-6 single-footer-widget">
+					<h4>Resources</h4>
+					<ul>
+						<li><a href="#">Guides</a></li>
+						<li><a href="#">Research</a></li>
+						<li><a href="#">Experts</a></li>
+						<li><a href="#">Agencies</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Newsletter</h4>
+					<p>You can trust us. we only send promo offers,</p>
+					<div class="form-wrap" id="mc_embed_signup">
+						<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+						 method="get" class="form-inline">
+							<input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+							 required="" type="email">
+							<button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
+							<div style="position: absolute; left: -5000px;">
+								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+							</div>
+
+							<div class="info"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom row align-items-center">
+				<p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+				<div class="col-lg-4 col-md-12 footer-social">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-dribbble"></i></a>
+					<a href="#"><i class="fa fa-behance"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="back-top">
+		<a title="Go to Top" href="#"></a>
+	</div>
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/easing.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/owl-carousel-thumb.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/main.js"></script>
+      <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+</body>
+
+</html>
